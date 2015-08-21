@@ -8,3 +8,36 @@ Premise:
 
 Outline:
   ☐ Intro
+  ☐ Who am I
+  ☐ Talk about visualizations in general
+    ☐ What they are
+    ☐ How they are being utilized
+    ☐ advances in technology and interactivity
+  ☐ Explain the problem
+    ☐ visuals often aren't compelling
+    ☐ Visuals hide data from us
+    ☐ Visuals don't tell us meaningful stories
+    ☐ Examples of bad graphs
+  ☐ Explain Visualization best practices
+    ☐ Tufte's rules for visualization (http://www.sealthreinhold.com/school/tuftes-rules/rule_one.php)
+    ☐ Focus on key rules
+      ☐ Use Labels
+      ☐ Avoid Chartjunk
+      ☐ Utilize data-ink
+      ☐ Use multiples
+      ☐ Understand Narrative
+  ☐ Lets focus on Narrativ
+    ☐ Tools and Process
+  ☐ Process
+    ☐ "Build one to throw away"
+    ☐ If your story isn't that interesting then just make it a paragraph
+    ☐ Look at your data and validate your hypothesis
+      ☐ Is it validated and interesting?  Good!
+      ☐ If its boring then what other info can we look at?
+    ☐ Iterate
+    ☐ Optimize your chart building with better tools
+  ☐ Tools
+    ☐ D3
+    ☐ Javascript
+    ☐ ES6
+    ☐ snippets!!!
