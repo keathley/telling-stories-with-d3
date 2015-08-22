@@ -41,3 +41,15 @@ Outline:
     ☐ Javascript
     ☐ ES6
     ☐ snippets!!!
+  ☐ Conclusion
+    ☐ Data viz is better when it tells a story
+    ☐ Ask interesting questions of your data and don't be afraid of the answers
+
+  Live Demo ideas:
+    ☐ Take data from the audience with OCR and build graphs based on that
+       * Graphs would all just have to be averages.
+       * could even live code new graphs with the data that we get back
+       * This would be a great way to show the process of asking questions.
+         If we start asking questions and the graphs don't tell us anything
+         then we would know that we need to pursue a different line of
+         reasoning. This could be REALLY hard but it could be really magical.
