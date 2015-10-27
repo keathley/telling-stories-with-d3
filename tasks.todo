@@ -6,28 +6,31 @@ Premise:
   visuals.  I want to show people how to do that.  Teach them how to ask the
   right questions and how to craft designs around that.
 
-Outline:
-  ☐ Intro
+Outline(new):
+  ☐ Intro - What are we gunna talk about
   ☐ Who am I
-  ☐ Talk about visualizations in general
-    ☐ What they are
-    ☐ How they are being utilized
-    ☐ advances in technology and interactivity
-  ☐ Explain the problem
-    ☐ visuals often aren't compelling
-    ☐ Visuals hide data from us
-    ☐ Visuals don't tell us meaningful stories
-    ☐ Examples of bad graphs
-  ☐ Explain Visualization best practices
-    ☐ Tufte's rules for visualization (http://www.sealthreinhold.com/school/tuftes-rules/rule_one.php)
+  ☐ Why do we care about visualizations
+    ☐ Comparison
+    ☐ Chunking
+    ☐ People can make comparisons between groups
+    ☐ Examples of how visualizations can help us break down data
+    ☐ We can see trends that we never would have been able to find otherwise
+  ☐ Why do we care about stories
+    ☐ Stories provide us bias
+    ☐ They allow us to show the data in a meaningful way.
+    ☐ Users can explore our this data and understand the story that were showing them on an intuitive level.
+    ☐ Examples of good stories that are being told in data
+    ☐ DHH's post on histograms. Example of poor story
+  ☐ "Most issues with visualization happen when the story isnt interesting or we're trying to tell a vague story"
+  ☐ How do we do better?
+  ☐ Tufte's rules for visualization (http://www.sealthreinhold.com/school/tuftes-rules/rule_one.php)
     ☐ Focus on key rules
       ☐ Use Labels
       ☐ Avoid Chartjunk
       ☐ Utilize data-ink
       ☐ Use multiples
       ☐ Understand Narrative
-  ☐ Lets focus on Narrativ
-    ☐ Tools and Process
+  ☐ Tools and Processes
   ☐ Process
     ☐ "Build one to throw away"
     ☐ If your story isn't that interesting then just make it a paragraph
