@@ -1,3 +1,11 @@
+Todo:
+  ☐ Move outline into presentation software
+  ☐ Refine presentation
+  ☐ Build presentation software
+  ☐ Style presentation
+  ☐ Add demos
+  ☐ Add websockets?
+
 Premise:
   Data visualizations are tell stories.  However we can't know what those
   stories are until we've started looking at the data.  That means that
