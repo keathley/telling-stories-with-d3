@@ -1,23 +1,211 @@
-<section class="slide">
-  <h1>Slide 1</h1>
-</section>
+<!-- <button class="editor-toggle">
+  ➥
+</button> -->
+<div id="editor">
+  function foo(items) {
+    var x = "All this is syntax highlighted";
+    return x;
+  }
+</div>
 
-<section class="slide">
-  <h1>Slide 2</h1>
-</section>
+<div class='content'>
+  <section class="slide">
+    <h1>Telling Stories</h1>
+    <h2 class="subtitle">with data visualization.</h2>
+  </section>
 
-<section class="slide">
-  <h1>Slide 3</h1>
-</section>
+  <section class='slide'>
+    <h1>
+      Data visualization is very powerful
+    </h1>
+  </section>
 
-<section class="slide">
-  <h1>Slide 4</h1>
-</section>
+  <section class='slide'>
+    <h1>
+      The problem with data visualization
+    </h1>
+  </section>
 
-<section class="slide">
-  <h1>Slide 5</h1>
-</section>
+  <section class='slide'>
+    <h1>
+      Its easy to hide valuable data without meaning to
+    </h1>
+  </section>
 
-<section class="slide">
-  <h1>Slide 6</h1>
-</section>
+  <section class='slide'>
+    <h1>
+      Data viz automatically provides bias
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      The solution to these problems is to tell stories
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      But telling stories is hard
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      We have to ask the right questions and use tools to find the answers
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      D3 is awesome (a quick example)
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      selectors
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      data binding
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      svg generation
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      other stuff and things
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      How I write D3.
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      modules
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      arrows
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      es6
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      snippets
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      You should always favor snippets over other things
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      frameworks bind you to their implementation.
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      We want to stay flexible
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Build a basic example
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Showcase some basic D3.
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Show proper chart building skills (axis, colors, etc.)
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Does this answer our question?
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      What narrative are we telling?
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      What new questions do we have?
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Re-create graph but changing some things
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Question your own biases
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Always try to expose the truth
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Thanks!
+    </h1>
+  </section>
+</div>
