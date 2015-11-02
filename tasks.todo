@@ -14,6 +14,47 @@ Premise:
   visuals.  I want to show people how to do that.  Teach them how to ask the
   right questions and how to craft designs around that.
 
+Key Point:
+  Visuals are hard and often aren't meaningful to users.
+  I believe that we can combat this by thinking about telling stories with our
+  visualizations.
+
+Outline(newest):
+  ☐ Intro
+  ☐ Data visualization is very powerful
+  ☐ The problem with data visualization
+    ☐ Its easy to hide valuable data without meaning to
+    ☐ Data viz automatically provides bias
+  ☐ The solution to these problems is to tell stories
+    ☐ But telling stories is hard
+    ☐ We have to ask the right questions and use tools to find the answers
+  ☐ We need tools that will let us tell interesting stories
+  ☐ D3 is awesome (a quick example)
+    ☐ selectors
+    ☐ data binding
+    ☐ svg generation
+    ☐ other stuff and things
+  ☐ How I write D3.
+    ☐ modules
+    ☐ arrows
+    ☐ es6
+    ☐ snippets
+  ☐ You should always favor snippets over other things
+    ☐ frameworks bind you to their implementation.
+    ☐ We want to stay flexible
+  ☐ Build a basic example
+    ☐ Showcase some basic D3.
+    ☐ Show proper chart building skills (axis, colors, etc.)
+  ☐ Does this answer our question?
+  ☐ What narrative are we telling?
+  ☐ What new questions do we have?
+  ☐ Re-create graph but changing some things
+    ☐ The way that we've structured our composition allows us to do this.
+  ☐ Always be asking questions of your data
+  ☐ Question your own biases
+  ☐ Always try to expose the truth
+  ☐ Thanks!
+
 Outline(new):
   ☐ Intro - What are we gunna talk about
   ☐ Who am I
