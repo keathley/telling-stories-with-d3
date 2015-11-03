@@ -39,7 +39,7 @@ const Router = (() => {
   }
 
   function path() {
-    return window.location.href.match(/#\/(.*)$/)[1]
+    return (window.location.href.match(/^(.*)\/#\/(.*)$/)||['','','0'])[2]
   }
 
   return {

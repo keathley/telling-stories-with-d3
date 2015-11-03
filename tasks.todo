@@ -1,8 +1,8 @@
 Todo:
-  ☐ Move outline into presentation software
+  ✔ Move outline into presentation software @done(2015-11-03 15:07) @project(Todo)
+  ✔ Build presentation software @done(2015-11-03 15:07) @project(Todo)
+  ✔ Style presentation @done(2015-11-03 15:07) @project(Todo)
   ☐ Refine presentation
-  ☐ Build presentation software
-  ☐ Style presentation
   ☐ Add demos
   ☐ Add websockets?
 

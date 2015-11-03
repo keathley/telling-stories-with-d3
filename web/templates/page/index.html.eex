@@ -12,59 +12,164 @@
   <section class="slide">
     <h1>Telling Stories</h1>
     <h2 class="subtitle">with data visualization.</h2>
+    <p>
+      Chris Keathley / @ChrisKeathley
+    </p>
+    <aside class="notes">
+      Hey everyone, my name is Chris Keathley. Thanks for coming out...
+      I want to talk about data visualization.
+    </aside>
   </section>
 
   <section class='slide'>
     <h1>
-      Data visualization is very powerful
+      Why do we care?
     </h1>
+    <aside class="notes">
+      * Data visualization gives us the ability to look at data from a unique
+        perspective.
+      * Businesses run on data. Visuals allow us to ask questions in a unique
+        way.
+    </aside>
   </section>
 
   <section class='slide'>
     <h1>
-      The problem with data visualization
+      Server Responses
     </h1>
+    <div class="graph">
+      <h1>Example line graph goes here</h1>
+    </div>
   </section>
 
   <section class='slide'>
     <h1>
-      Its easy to hide valuable data without meaning to
+      Data viz automatically provides a certain bias.
     </h1>
+    <aside class="notes">
+      We can't help but be influenced by this.
+    </aside>
   </section>
 
   <section class='slide'>
     <h1>
-      Data viz automatically provides bias
+      The goal is to try to dance with this bias and not hide
     </h1>
+    <aside class="notes">
+      We're not talking about being shitty here. In many ways this bias is
+      unconcious.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>Visualizations tell us a story</h1>
+    <h2>We get one perspective on the data</h2>
+  </section>
+
+  <section class='slide'>
+    <h1>Server Response</h1>
+    <h2>"How are we doing overall?"</h2>
+    <div class="chart">
+    </div>
+    <aside class="notes">
+      This may seem painfully obvious at first.
+      But stating the narrative exposes the issue.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>State the narrative first</h1>
+  </section>
+
+  <section class='slide'>
+    <h1>What are the response times that our users experience?</h1>
+    <aside class='notes'>
+      We need to reframe this problem to be something more interesting
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>What are the response times that our users experience?</h1>
+    <div class="chart">
+      <h1>Line graph goes here</h1>
+    </div>
+    <aside class='notes'>
+      This was our original graph
+    </aside>
   </section>
 
   <section class='slide'>
     <h1>
-      The solution to these problems is to tell stories
+      Server Responses (fixed)
     </h1>
+    <div class="chart">
+      <h1>Line graph goes here</h1>
+    </div>
+    <div class="graph">
+      <h1>Example histogram goes here</h1>
+    </div>
+    <aside class="notes">
+      We can see that this accurately answers the question correctly.
+      More importantly this will show us when we have issues. Our naive
+      line graph hides this information because its telling a vague story
+    </aside>
   </section>
 
   <section class='slide'>
     <h1>
-      But telling stories is hard
+      Reveals more information about the data
     </h1>
+    <div class="chart">
+      <h1>Line graph goes here</h1>
+    </div>
+    <div class="graph">
+      <h1>Example histogram goes here</h1>
+    </div>
+    <aside class="notes">
+      This is all the same data. But they're two viewpoints into that data.
+    </aside>
   </section>
 
   <section class='slide'>
-    <h1>
-      We have to ask the right questions and use tools to find the answers
-    </h1>
+    <h1>Other visualizations that do this well</h1>
+    <aside class='notes'>
+      Here are some other visualizations that manage to do this really
+      well
+    </aside>
   </section>
 
   <section class='slide'>
-    <h1>
-    </h1>
+    <h1>The problem with stories</h1>
+    <aside class='notes'>
+      The challenge with telling stories is really that telling the proper
+      story is hard. It requires itteration. You have to reflect on the
+      questions that you're asking.
+    </aside>
   </section>
 
   <section class='slide'>
-    <h1>
-      D3 is awesome (a quick example)
-    </h1>
+    <h1>sometimes the answers are boring</h1>
+    <aside class='notes'>
+      Sometimes the answers won't be interesting. However, that doesn't
+      mean the question is wrong. Often we think about the
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>Charts can be costly to create</h1>
+    <aside class='notes'>
+      Lots of charting tools are hard to use. They are often inflexible or
+      aren't powerful enough to tell the story that you need to tell.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>D3</h1>
+    <aside class='notes'>
+      JS + D3 is my tool of choice. It affords me flexibility to create
+      interesting visuals using the same data. Its an incredibly powerful
+      library
+    </aside>
   </section>
 
   <section class='slide'>
@@ -99,6 +204,12 @@
 
   <section class='slide'>
     <h1>
+      es6
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
       modules
     </h1>
   </section>
@@ -111,12 +222,6 @@
 
   <section class='slide'>
     <h1>
-      es6
-    </h1>
-  </section>
-
-  <section class='slide'>
-    <h1>
       snippets
     </h1>
   </section>
@@ -124,18 +229,6 @@
   <section class='slide'>
     <h1>
       You should always favor snippets over other things
-    </h1>
-  </section>
-
-  <section class='slide'>
-    <h1>
-      frameworks bind you to their implementation.
-    </h1>
-  </section>
-
-  <section class='slide'>
-    <h1>
-      We want to stay flexible
     </h1>
   </section>
 
@@ -178,16 +271,6 @@
   <section class='slide'>
     <h1>
       Re-create graph but changing some things
-    </h1>
-  </section>
-
-  <section class='slide'>
-    <h1>
-    </h1>
-  </section>
-
-  <section class='slide'>
-    <h1>
     </h1>
   </section>
 
