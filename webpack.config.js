@@ -2,7 +2,7 @@ var path = require('path')
 
 module.exports = {
   context: __dirname,
-  // devtool: 'cheap-eval-source-map',
+  devtool: 'cheap-eval-source-map',
   entry: {
     app: path.join(__dirname, 'web', 'static', 'js', 'app.js')
   },
