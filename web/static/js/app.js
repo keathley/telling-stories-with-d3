@@ -4,7 +4,9 @@ import d3 from 'd3'
 import ace from 'brace'
 import 'brace/mode/javascript'
 import 'brace/theme/github'
+
 import averages from './averages'
+import './averages_histogram'
 
 require('css/app')
 
@@ -52,6 +54,7 @@ const Router = (() => {
 
 const Deck = (() => {
   var $slides       = $('.slide')
+    , $innerSlides = []
     , currentSlide = null
 
   $(window).on('hashchange', _updateCurrentSlide)
@@ -59,7 +62,11 @@ const Deck = (() => {
   _updateCurrentSlide()
 
   function next() {
-    if ( currentSlide < $slides.length-1 )
+    var $innerSlides = $('.current .inner-slide:not(.revealed)')
+
+    if ( $innerSlides.length )
+      $innerSlides.eq(0).addClass('revealed')
+    else if ( currentSlide < $slides.length-1 )
       Router.navigate(currentSlide + 1)
   }
 
