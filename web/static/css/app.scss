@@ -70,7 +70,6 @@ h3 {
 
 iframe {
   display: block;
-  // margin: 0 auto;
   border: 0;
 }
 
@@ -148,6 +147,10 @@ iframe {
 }
 
 .bar text { fill: #fff; }
+
+#basic-attendance {
+  .x.axis .tick { fill: none; }
+}
 
 .btn {
 

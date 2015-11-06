@@ -8,6 +8,8 @@ import 'brace/theme/github'
 import averages from './averages'
 import './averages_histogram'
 
+import './basic_attendance'
+
 require('css/app')
 
 window.$ = $

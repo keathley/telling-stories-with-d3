@@ -263,6 +263,7 @@
 
   <section class='slide'>
     <h1>Attendance</h1>
+    <div id='basic-attendance' class='graph'></div>
     <aside class='notes'>
       This is the most basic graph we can do for attendance. There are some
       key signals here. But how can we showcase these signals? Why do we have
