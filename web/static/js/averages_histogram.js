@@ -52,6 +52,7 @@ function update(data) {
   bar.enter().append('rect')
       .attr('class', 'bar')
       .attr('y', y(0))
+      .attr('fill', '#4682b4')
       .attr('height', height - y(0))
 
   bar.transition()

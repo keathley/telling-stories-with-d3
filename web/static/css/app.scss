@@ -2,6 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300);
 
 $blue: #4682b4;
+$background: #f8f8f8;
+// $background: #fffff8;
 
 html { font-size: 28px; }
 
@@ -14,7 +16,7 @@ body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #111;
   counter-reset: sidenot-counter;
-  background-color: #fffff8;
+  background-color: $background;
 }
 
 h1 {
@@ -142,16 +144,45 @@ iframe {
 }
 
 .bar {
-  fill: $blue;
   shape-rendering: crispEdges;
+
+  text { fill: #fff; }
 }
 
-.bar text { fill: #fff; }
 
+
+#attendance-by-topic,
 #basic-attendance {
   .x.axis .tick { fill: none; }
 }
 
 .btn {
 
+}
+
+.d3-tip {
+  padding: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 2px;
+
+  &.n:after {
+    top: 100%;
+    left: 0;
+    margin: -1px 0 0;
+  }
+}
+
+.d3-tip:after {
+  position: absolute;
+  display: inline;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 10px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  content: "\25BC";
 }

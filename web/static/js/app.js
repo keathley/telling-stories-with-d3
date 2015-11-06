@@ -9,6 +9,7 @@ import averages from './averages'
 import './averages_histogram'
 
 import './basic_attendance'
+import './attendance_by_topic'
 
 require('css/app')
 

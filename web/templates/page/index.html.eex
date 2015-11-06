@@ -315,7 +315,7 @@
   </section>
 
   <section class='slide'>
-    <h1>#TODO - Show how we might need to go get some more data to adequately show an answer</h1>
+    <div class="graph" id="attendance-by-topic"></div>
     <aside class='notes'>
       Why was this spike here? Well it turns out that there was a changing of
       the guard that coincided with a location change and we lost a whole set of
