@@ -316,6 +316,7 @@
 
   <section class='slide'>
     <div class="graph" id="attendance-by-topic"></div>
+    <button type="button" name="button" class='js-sort-topics'>sort</button>
     <aside class='notes'>
       Why was this spike here? Well it turns out that there was a changing of
       the guard that coincided with a location change and we lost a whole set of
