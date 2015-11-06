@@ -2,7 +2,7 @@ import d3 from 'd3'
 
 var margin      = {top: 20, right: 20, bottom: 30, left: 40}
   , width       = 960 - margin.left - margin.right
-  , height      = 200 - margin.top - margin.bottom
+  , height      = 400 - margin.top - margin.bottom
   , x           = d3.scale.ordinal()
   , y           = d3.scale.linear()
   , xAxis       = d3.svg.axis().scale(x).orient('bottom').ticks(0)
@@ -38,26 +38,22 @@ d3.json('/json/events.json', (error, json) => {
   var bar = svg.selectAll('.bar')
       .data(data)
 
-  bar.enter().append('rect')
-    .attr('class', 'bar')
-    .attr('x', (d) => x(d.name))
-    .attr('width', x.rangeBand())
-    .attr('y', (d) => y(d.attended))
-    .attr('height', (d) => height - y(d.attended))
 
-  // bar.transition()
-  //   .duration(300)
-  //     .attr('y', (d) => y(d.attended))
-  //     .attr('height', (d) => height - y(d.attended))
-  //     .attr('x', (d) => x(d.x))
-  //     .attr('width', width / data.length - 1)
+  bar.enter().append('rect')
+      .attr('class', 'bar')
+      .attr('x', (d) => x(d.name))
+      .attr('width', x.rangeBand())
+      .attr('y', height)
+      .attr('height', 0)
+    .transition()
+      .duration(300)
+      .attr('y', (d) => y(d.attended))
+      .attr('height', (d) => height - y(d.attended))
 });
 
 function munge(json) {
   json.forEach((d) => { d.attended = d.rsvps.length })
   json.forEach((d, i) => { d.x = i })
-
-  console.log(json);
 
   return json
 }
