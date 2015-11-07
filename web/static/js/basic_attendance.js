@@ -1,7 +1,7 @@
 import d3 from 'd3'
 
 var margin      = {top: 20, right: 20, bottom: 30, left: 40}
-  , width       = 960 - margin.left - margin.right
+  , width       = 600 - margin.left - margin.right
   , height      = 400 - margin.top - margin.bottom
   , x           = d3.scale.ordinal()
   , y           = d3.scale.linear()

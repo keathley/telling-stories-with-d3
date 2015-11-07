@@ -1,0 +1,593 @@
+{
+  "technique": {
+    "talks": [
+      {
+        "id": "151909932",
+        "name": "Test Driven Development in Django",
+        "topic": "technique",
+        "venue_name": "Lamp Post Group"
+      },
+      {
+        "id": "154172862",
+        "name": "Thinking in Objects",
+        "topic": "technique",
+        "venue_name": "Lamp Post Group"
+      },
+      {
+        "id": "160308302",
+        "name": "Human First Web Design w/ Daniel Ryan",
+        "topic": "technique",
+        "venue_name": "Library - Downtown Chatt."
+      },
+      {
+        "id": "166746152",
+        "name": "Refactoring legacy code bases for fun and profit w/ Chris Keathley",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "177915942",
+        "name": "Writing fast unit tests w/ Chris Keathley",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "180936902",
+        "name": "Olfactory Refactoring part 1 w/ Anthony Blardo",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "181941082",
+        "name": "Olfactory Refactoring part 2 w/ Anthony Blardo",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "188552482",
+        "name": "Photoshop for developers w/ Rodger Maarfi",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "204892312",
+        "name": "How not to be a Git w/ Adam Jimerson",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "221517845",
+        "name": "Values Driven Development w/ Alan Stevens",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "222406690",
+        "name": "How to be a great beginner programmer w/ Jonathan Cutrell",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "223484151",
+        "name": "Git Low with Git Flow w/ Caleb Albritton",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "223641946",
+        "name": "Planning an Effective Integration with a 3rd party API to Scale",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "224028434",
+        "name": "Zen and the Art of Simple Software: the Unix Philosophy - Stephen Spalding",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "224934226",
+        "name": "Find Your Story: Build Better Sites by Building Better Stories w/ Andrew Steele",
+        "topic": "technique",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "225923109",
+        "name": "Test for Security; Test for Design w/ Chris Keathley",
+        "topic": "technique",
+        "venue_name": "Floor 5 at The Edney Innovation Center"
+      }
+    ]
+  },
+  "backend": {
+    "talks": [
+      {
+        "id": "151940692",
+        "name": "Using knowledge systems to automatically address system problems",
+        "topic": "backend",
+        "venue_name": "Lamp Post Group"
+      },
+      {
+        "id": "160308982",
+        "name": "Using IPython Notebook to analyze Django model Data w/ Adam Haney",
+        "topic": "backend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "160310952",
+        "name": "An introduction to grails w/ Jared Menard",
+        "topic": "backend",
+        "venue_name": "Lamp Post Group"
+      },
+      {
+        "id": "168935792",
+        "name": "Handling Time Zones and Recurrences like a Boss in Python/Django w/ Wes Kendall",
+        "topic": "backend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "197747842",
+        "name": "From Queues to Caches: Redis Design patterns w/ Chris Keathley",
+        "topic": "backend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "203588722",
+        "name": "Like webscale but over 9000: Introduction to elixir and erlang",
+        "topic": "backend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "204512342",
+        "name": "Speed Matters: Profiling Server Side Code w/ Wil Wade",
+        "topic": "backend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "208808922",
+        "name": "Good Migrations: SQL performance w/ Rodger Maarfi",
+        "topic": "backend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "213574512",
+        "name": "Cluster Computing with Clojure and Mesos w/ Ben Weaver",
+        "topic": "backend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "214403232",
+        "name": "Cluster Computing with Clojure and Mesos part 2 w/ Ben Weaver",
+        "topic": "backend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "224028424",
+        "name": "Introduction to Graph Databases",
+        "topic": "backend",
+        "venue_name": "Society of Work"
+      }
+    ]
+  },
+  "devops": {
+    "talks": [
+      {
+        "id": "154234672",
+        "name": "Developing applications in a Vagrant environment",
+        "topic": "devops",
+        "venue_name": "Lamp Post Group"
+      },
+      {
+        "id": "174364162",
+        "name": "Continuous Integration and Deployment @Bellhops w/ Adam Haney",
+        "topic": "devops",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "197522782",
+        "name": "Set up an immutable server in 10 minutes using Ansible w/ Ryan Lelek",
+        "topic": "devops",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "217194572",
+        "name": "Docker part 1 w/ Micah Hausler",
+        "topic": "devops",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "217195062",
+        "name": "Docker Part 2 w/ Micah Hausler",
+        "topic": "devops",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "220280420",
+        "name": "The 12 Factor App; what does it mean, and why should I care? w/ Adam Jimerson",
+        "topic": "devops",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "223313376",
+        "name": "DevOps Panel Discussion",
+        "topic": "devops",
+        "venue_name": "Society of Work"
+      }
+    ]
+  },
+  "frontend": {
+    "talks": [
+      {
+        "id": "154905162",
+        "name": "An overview of Angular.js",
+        "topic": "frontend",
+        "venue_name": "Lamp Post Group"
+      },
+      {
+        "id": "156281582",
+        "name": "EMCAScript 6 and the future of Javascript w/ Jeffery McRiffey",
+        "topic": "frontend",
+        "venue_name": "Lamp Post Group"
+      },
+      {
+        "id": "174448232",
+        "name": "An Introduction to Adaptive Design w/ Aaron Gustafson",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "181222122",
+        "name": "An Introduction to Angular.js w/ Chris Keathley",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "188124092",
+        "name": "An introduction to meteor.js w/ Andrew McPherson ",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "198471722",
+        "name": "Useful, Usable & Desirable: Designing for People w/ Jessica Ivins",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "216703892",
+        "name": "Getting Sass-y w/ Jordan Isip",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "213142882",
+        "name": "Falling in Love with Forms w/ Aaron Gustafson",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "217332082",
+        "name": "So long, jQuery, and thanks for all the fish! w/ Matt Turnure",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "219078676",
+        "name": "Telling local stories with data viz and d3.js w/ Mary Helen Miller",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "219959978",
+        "name": "Hanging up on Callbacks: Generators in ES6 w/ Erin Swenson-Healey",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "220307496",
+        "name": "Building assets with Gulp w/ Ustin Zarubin",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "221385368",
+        "name": "Web asset performance and optimization w/ Brett Wise and Chris Keathley",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "222439339",
+        "name": "Panel Discussion: The Benefits and Challenges of Prototyping",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "222223944",
+        "name": "Web Accessability w/ Winston Hearn",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "224028468",
+        "name": "7 Rules for Creating Gorgeous UI",
+        "topic": "frontend",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "226065965",
+        "name": "Reactive Connected Clients with Meteor w/ James Holland",
+        "topic": "frontend",
+        "venue_name": "Floor 5 at The Edney Innovation Center"
+      }
+    ]
+  },
+  "theory": {
+    "talks": [
+      {
+        "id": "160548412",
+        "name": "An Introduction to Cryptography for Programmers w/ Micah Hausler",
+        "topic": "theory",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "171098562",
+        "name": "How economics effects developers w/ Rodger Maarfi",
+        "topic": "theory",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "188127662",
+        "name": "An introduction to static analysis w/ Adam Haney",
+        "topic": "theory",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "209526852",
+        "name": "Deathmatch2D: Evolutionary Algorithms for Creative Coding w/ Alex Cruikshank",
+        "topic": "theory",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "219809723",
+        "name": "Finding happiness in Turing completeness w/ Chris Keathley",
+        "topic": "theory",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "222183466",
+        "name": "Beyond Turing Machines: an Introduction to Quantum Computers w/ Alex Cruikshank",
+        "topic": "theory",
+        "venue_name": "Society of Work"
+      }
+    ]
+  },
+  "technology": {
+    "talks": [
+      {
+        "id": "160329202",
+        "name": "Unity 3D w/ Rodger Maarfi",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "222364182",
+        "name": "Virtual Reality panel w/ assorted experts. ",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "168284402",
+        "name": "Intro to Augmented Reality using the Metaio SDK, with Reed \"Wreck It\" Tomlinson",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "178099942",
+        "name": "Concurrency in Go w/ Adam Jimerson",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "180937162",
+        "name": ".NET trolling - why Microsoft is worth looking at w/ Rodger Maarfi",
+        "topic": "technology",
+        "venue_name": null
+      },
+      {
+        "id": "186906542",
+        "name": "Open Source Map Making w/ Jason Denizac",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "200693132",
+        "name": "OpenStreetMap 101",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "220097036",
+        "name": "Introduction To Livecoding With Overtone and Clojure w/ Sean Brewer",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "220307837",
+        "name": "Multirotor Madness: Intro to Quadcopters w/ Anthony Blardo",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "221423433",
+        "name": "Building Sprite-based 2D Games in React w/ Andrew McPherson",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "223822205",
+        "name": "Building Quantum Pilot: iOS Game Development",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "224933977",
+        "name": "The modern Salesforce development workflow w/ Visual Studio Code w/ John Nelson",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "224934120",
+        "name": "Building websites with Jekyll w/ Rodger Maarfi",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "225524903",
+        "name": "The Internet 2.0, or how I learned to stop worrying and love the tubes",
+        "topic": "technology",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "224934060",
+        "name": "OCaml: An Introduction w/ Josh Marlow",
+        "topic": "technology",
+        "venue_name": "Floor 5 at The Edney Innovation Center"
+      }
+    ]
+  },
+  "discussion": {
+    "talks": [
+      {
+        "id": "224028486",
+        "name": "A Different Kind of Code: Forming an LLC & Other Legal Considerations",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "184597102",
+        "name": "UTC Computer Science and Engineering Department Q&A",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "186925612",
+        "name": "Net Neutrality with Chris Riley, Mozilla's Senior Policy Engineer",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "187075852",
+        "name": "Activism, Hacking and the Chinese web w/ Brett Wise",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "187076242",
+        "name": "Open Data: What is it anyway? w/ Sean Brewer",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "219337035",
+        "name": "Civic User Testing with Tyler Yount",
+        "topic": "discussion",
+        "venue_name": "Library - Downtown Chatt."
+      },
+      {
+        "id": "220148775",
+        "name": "Every Coder’s Dirty Secret: Burnout w/ Wil Wade",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "220307452",
+        "name": "Candidate Centered Recruiting w/ Ben Schnell",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "221994769",
+        "name": "Chattanooga Innovation District Two-Way Briefing",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "222181869",
+        "name": "Chadev State of the Union: Where we are and where we are going.",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "222187442",
+        "name": "What's happening with TechHire w/ Nick Wilkinson",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "223739570",
+        "name": "How to Survive your First Hackathon",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "224934021",
+        "name": "Let's Brainstorm Speaking Topics w/ Jessica Ivins",
+        "topic": "discussion",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "226351409",
+        "name": "AARP & Tech Discussion Panel",
+        "topic": "discussion",
+        "venue_name": "Floor 5 at The Edney Innovation Center"
+      }
+    ]
+  },
+  "lightning": {
+    "talks": [
+      {
+        "id": "207691782",
+        "name": "Lightning Talks!",
+        "topic": "lightning",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "216267142",
+        "name": "Lightning Talks!",
+        "topic": "lightning",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "220804698",
+        "name": "Lightning Talks!!!",
+        "topic": "lightning",
+        "venue_name": "Society of Work"
+      }
+    ]
+  },
+  "security": {
+    "talks": [
+      {
+        "id": "224028414",
+        "name": "Web Application Security and You: Intro to OWASP and Penetration Testing",
+        "topic": "security",
+        "venue_name": "Society of Work"
+      }
+    ]
+  },
+  "datascience": {
+    "talks": [
+      {
+        "id": "224028451",
+        "name": "Intro to Data Science in Python - Jeff McGhee",
+        "topic": "datascience",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "225702458",
+        "name": "Making Decisions with Cost Functions w/ River Kanies",
+        "topic": "datascience",
+        "venue_name": "Society of Work"
+      }
+    ]
+  }
+}

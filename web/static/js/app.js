@@ -10,6 +10,7 @@ import './averages_histogram'
 
 import './basic_attendance'
 import './attendance_by_topic'
+import './member_attendance'
 
 require('css/app')
 

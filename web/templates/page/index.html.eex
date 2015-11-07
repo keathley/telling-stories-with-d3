@@ -326,6 +326,15 @@
   </section>
 
   <section class='slide'>
+    <div class="graph" id="members-attendance"></div>
+    <aside class='notes'>
+      Once again we rethink our problem (in the same way that we rethought the server
+      responses) and we see that what we're really talking about here is users.
+      Because of that we can see that this is actually a distrobution.
+    </aside>
+  </section>
+
+  <section class='slide'>
     <h1>
       TODO - build a graph that shows the trends over time and see how that
       would correlate with our current examples

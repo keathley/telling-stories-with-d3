@@ -3,8 +3,8 @@ import d3Tip from 'd3-tip'
 import $ from 'jquery'
 
 var margin = {top: 100, right: 20, bottom: 30, left: 40}
-  , width  = 1240 - margin.left - margin.right
-  , height = 800 - margin.top - margin.bottom
+  , width  = 600 - margin.left - margin.right
+  , height = 600 - margin.top - margin.bottom
   , x      = d3.scale.ordinal()
   , y      = d3.scale.linear()
   , color  = d3.scale.category10()

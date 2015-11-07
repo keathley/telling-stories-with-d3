@@ -9,7 +9,12 @@
 # Generate on crash by the VM
 erl_crash.dump
 
-/priv/static
+/priv/static/favicon*
+/priv/static/manifest*
+/priv/static/robots*
+/priv/static/css
+/priv/static/js
+
 
 # The config/prod.secret.exs file by default contains sensitive
 # data and you should not commit it into version control.
