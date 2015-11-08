@@ -324,6 +324,18 @@
   "theory": {
     "talks": [
       {
+        "id": "224028451",
+        "name": "Intro to Data Science in Python - Jeff McGhee",
+        "topic": "theory",
+        "venue_name": "Society of Work"
+      },
+      {
+        "id": "225702458",
+        "name": "Making Decisions with Cost Functions w/ River Kanies",
+        "topic": "theory",
+        "venue_name": "Society of Work"
+      },
+      {
         "id": "160548412",
         "name": "An Introduction to Cryptography for Programmers w/ Micah Hausler",
         "topic": "theory",
@@ -570,22 +582,6 @@
         "id": "224028414",
         "name": "Web Application Security and You: Intro to OWASP and Penetration Testing",
         "topic": "security",
-        "venue_name": "Society of Work"
-      }
-    ]
-  },
-  "datascience": {
-    "talks": [
-      {
-        "id": "224028451",
-        "name": "Intro to Data Science in Python - Jeff McGhee",
-        "topic": "datascience",
-        "venue_name": "Society of Work"
-      },
-      {
-        "id": "225702458",
-        "name": "Making Decisions with Cost Functions w/ River Kanies",
-        "topic": "datascience",
         "venue_name": "Society of Work"
       }
     ]

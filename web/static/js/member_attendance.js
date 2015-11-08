@@ -1,26 +1,20 @@
 import d3 from 'd3'
 
-var margin = {top: 20, right: 20, left: 40, bottom: 30}
-  , width  = 800 - margin.right - margin.left
-  , height = 400 - margin.top - margin.bottom
-  , x      = d3.scale.ordinal()
-  , y      = d3.scale.linear()
+var margin = {top: 20, right: 20, bottom: 30, left: 40}
+  , width  = 820 - margin.left - margin.right
+  , height = 600 - margin.top - margin.bottom
+  , x      = d3.scale.ordinal().rangeBands([0, width], 0.01)
+  , y      = d3.scale.linear().range([height, 0])
   , topic  = d3.scale.linear()
   , color  = d3.scale.category10()
-  , xAxis  = d3.svg.axis().scale(x).orient('bottom').ticks(0)
+  , xAxis  = d3.svg.axis().scale(x).orient('bottom')
   , yAxis  = d3.svg.axis().scale(y).orient('left')
 
 d3.json('/json/members.json', (error, json) => {
   var data = _munge(json)
 
-  window.members = json
-
-  d3.json('/json/topics.json', (error, _json) => {
-    window.topics = _json
-  })
-
-  x.domain(data.map((d) => d.name)).rangeRoundBands([0, width], 0.1)
-  y.domain([0, d3.max(data, (d) => d.total)]).range([height, 0])
+  x.domain(data.map((d) => d.member_id))
+  y.domain([0, d3.max(data, (d) => d.total)])
   topic.domain([0, d3.max(TOPICS, (d) => d.total)]).range([20, 50])
 
   var svg = d3.select('#members-attendance').append('svg')
@@ -48,7 +42,7 @@ d3.json('/json/members.json', (error, json) => {
       .data(data)
     .enter().append('g')
       .attr('class', 'g')
-      .attr('transform', (d) => `translate(${x(d.name)}, 0)`)
+      .attr('transform', (d) => `translate(${x(d.member_id)}, 0)`)
 
   member.selectAll('rect')
       .data((d) => d.topics)
@@ -78,9 +72,13 @@ d3.json('/json/members.json', (error, json) => {
 })
 
 function _munge(json) {
-  var members = json.filter((d) => d.total >= 4).sort((a, b) => a.total - b.total)
+  var members = json.filter((d) => d.total >= 4).sort(byRatio)
 
   return members
+
+  function byRatio(a, b) {
+    return a.total - b.total
+  }
 }
 
 const TOPICS = [
@@ -105,20 +103,16 @@ const TOPICS = [
     "total": 11
   },
   {
+    "name": "theory",
+    "total": 8
+  },
+  {
     "name": "devops",
     "total": 7
   },
   {
-    "name": "theory",
-    "total": 6
-  },
-  {
     "name": "lightning",
     "total": 3
-  },
-  {
-    "name": "datascience",
-    "total": 2
   },
   {
     "name": "security",

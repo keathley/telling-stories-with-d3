@@ -1,8 +1,8 @@
 import d3 from 'd3'
 
 var margin      = {top: 20, right: 20, bottom: 30, left: 40}
-  , width       = 600 - margin.left - margin.right
-  , height      = 400 - margin.top - margin.bottom
+  , width       = 820 - margin.left - margin.right
+  , height      = 600 - margin.top - margin.bottom
   , x           = d3.scale.ordinal()
   , y           = d3.scale.linear()
   , xAxis       = d3.svg.axis().scale(x).orient('bottom').ticks(0)
